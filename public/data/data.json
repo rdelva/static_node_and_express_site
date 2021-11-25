@@ -8,7 +8,11 @@
             "technologies":"JavaScript, Fetch API, CSS",
             "live_link":"",
             "github_link":"https://github.com/rdelva/public_api_request-v1",
-            "image_urls":""
+            "image_urls": {
+                "thumbnail": "images/employeedirectory_sm.png",
+                "large_1": "images/employeedirectory_lg1.png",
+                "large_2": "images/employeedirectory_lg2.png"
+            }
 
 
         },
@@ -20,9 +24,11 @@
             "technologies":"HTML, JS, and CSS",
             "live_link":"",
             "github_link":"https://github.com/rdelva/oop_game-v2",
-            "image_urls":""
-
-
+            "image_urls":{
+                "thumbnail": "images/phrasehunter.png",
+                "large_1": "images/phrasehunter_lg1.png"
+               
+            }
         },
         {
 
@@ -32,8 +38,11 @@
             "technologies":"",
             "live_link":"",
             "github_link":"https://github.com/rdelva/data-pagination-and-filtering",
-            "image_urls":""
-
+            "image_urls":{
+                "thumbnail": "images/studentdirectory_sm.png",
+                "large_1": "images/studentdirectory_lg.png"
+               
+            }
 
         },
         {
@@ -44,7 +53,10 @@
             "technologies":"JavaScript, CSS, HTML",
             "live_link":"",
             "github_link":"https://github.com/rdelva/data-pagination-and-filtering",
-            "image_urls":""
+            "image_urls": {
+                "thumbnail":"images/conferenceform_sm.png", 
+                "large_1": "images/conferenceform_lg_1.png"
+            }
 
 
         },
@@ -56,13 +68,11 @@
             "technologies":"JavaScript, CSS, HTML",
             "live_link":"",
             "github_link":"https://github.com/rdelva/data-pagination-and-filtering",
-            "image_urls":""
-
-
+            "image_urls": {
+                "thumbnail":"images/randomquote_sm.png", 
+                "large_1": "images/randomquote_lg_1.png"
+            }
         }
-
-
-
     ]
 
 }
