@@ -1,73 +1,71 @@
 {
-    "data": {
-        "projects": [
-            {
-    
-                "id": 0,
-                "project_name":"Employee Directory",
-                "description":"A list of employees pulled from a public api using the fetch data request",
-                "technologies":"JavaScript, Fetch API, CSS",
-                "live_link":"",
-                "github_link":"https://github.com/rdelva/public_api_request-v1",
-                "image_urls": {
-                    "thumbnail": "images/employeedirectory_sm.png",
-                    "large_1": "images/employeedirectory_lg1.png",
-                    "large_2": "images/employeedirectory_lg2.png"
-                }
-            },
-            {
-                "id": 1,
-                "project_name":"Phrase Hunter",
-                "description":"A game which was coded using OOP",
-                "technologies":"HTML, JS, and CSS",
-                "live_link":"",
-                "github_link":"https://github.com/rdelva/oop_game-v2",
-                "image_urls":{
-                    "thumbnail": "images/phrasehunter.png",
-                    "large_1": "images/phrasehunter_lg1.png"               
-                }
-            },
-            {
-    
-                "id": 2,
-                "project_name":"Student Directory",
-                "description":"Student Directory page which is created with an API and shows pagination and filtering",
-                "technologies":"",
-                "live_link":"",
-                "github_link":"https://github.com/rdelva/data-pagination-and-filtering",
-                "image_urls":{
-                    "thumbnail": "images/studentdirectory_sm.png",
-                    "large_1": "images/studentdirectory_lg.png"
-                   
-                }
-            },
-            {
-    
-                "id": 3,
-                "project_name":"Interactive Conference Form",
-                "description":"A Form, which contains interactive buttons",
-                "technologies":"JavaScript, CSS, HTML",
-                "live_link":"",
-                "github_link":"https://github.com/rdelva/data-pagination-and-filtering",
-                "image_urls": {
-                    "thumbnail":"images/conferenceform_sm.png", 
-                    "large_1": "images/conferenceform_lg_1.png"
-                }
-            },
-            {
-    
-                "id": 4,
-                "project_name":"Quote Generator",
-                "description":"A Quote Generator which is created from a basic JSON file that lists of the most popular quotes form pop culture",
-                "technologies":"JavaScript, CSS, HTML",
-                "live_link":"",
-                "github_link":"https://github.com/rdelva/data-pagination-and-filtering",
-                "image_urls": {
-                    "thumbnail":"images/randomquote_sm.png", 
-                    "large_1": "images/randomquote_lg_1.png"
-                }
+    "projects": [
+        {
+
+            "id": 0,
+            "project_name":"Employee Directory",
+            "description":"A list of employees pulled from a public api using the fetch data request",
+            "technologies":"JavaScript, Fetch API, CSS",
+            "live_link":"",
+            "github_link":"https://github.com/rdelva/public_api_request-v1",
+            "image_urls": {
+                "thumbnail": "images/employeedirectory_sm.png",
+                "large_1": "images/employeedirectory_lg1.png",
+                "large_2": "images/employeedirectory_lg2.png"
             }
-        ]
-    
-    }
+        },
+        {
+            "id": 1,
+            "project_name":"Phrase Hunter",
+            "description":"A game which was coded using OOP",
+            "technologies":"HTML, JS, and CSS",
+            "live_link":"",
+            "github_link":"https://github.com/rdelva/oop_game-v2",
+            "image_urls":{
+                "thumbnail": "images/phrasehunter.png",
+                "large_1": "images/phrasehunter_lg1.png"               
+            }
+        },
+        {
+
+            "id": 2,
+            "project_name":"Student Directory",
+            "description":"Student Directory page which is created with an API and shows pagination and filtering",
+            "technologies":"",
+            "live_link":"",
+            "github_link":"https://github.com/rdelva/data-pagination-and-filtering",
+            "image_urls":{
+                "thumbnail": "images/studentdirectory_sm.png",
+                "large_1": "images/studentdirectory_lg.png"
+               
+            }
+        },
+        {
+
+            "id": 3,
+            "project_name":"Interactive Conference Form",
+            "description":"A Form, which contains interactive buttons",
+            "technologies":"JavaScript, CSS, HTML",
+            "live_link":"",
+            "github_link":"https://github.com/rdelva/data-pagination-and-filtering",
+            "image_urls": {
+                "thumbnail":"images/conferenceform_sm.png", 
+                "large_1": "images/conferenceform_lg_1.png"
+            }
+        },
+        {
+
+            "id": 4,
+            "project_name":"Quote Generator",
+            "description":"A Quote Generator which is created from a basic JSON file that lists of the most popular quotes form pop culture",
+            "technologies":"JavaScript, CSS, HTML",
+            "live_link":"",
+            "github_link":"https://github.com/rdelva/data-pagination-and-filtering",
+            "image_urls": {
+                "thumbnail":"images/randomquote_sm.png", 
+                "large_1": "images/randomquote_lg_1.png"
+            }
+        }
+    ]
+
 }
