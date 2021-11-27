@@ -8,8 +8,8 @@ const path = require('path');
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'pug');
 
-app.use(express.json());
-app.use(express.urlencoded({ extended: false }));
+app.use(express.json()) // for parsing application/json
+app.use(express.urlencoded({ extended: true })) // for parsing application/x-www-form-urlencoded
 
 //Import Routes
 const routes = require('./routes');
