@@ -9,7 +9,7 @@ app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'pug');
 
 //Add static middleware
-app.use(express.static('public'));
+app.use('/static', express.static(path.join(__dirname, 'public')));
 
 
 app.use(express.json()) // for parsing application/json
