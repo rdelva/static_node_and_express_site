@@ -1,5 +1,5 @@
 {
-    "items": [
+    "projects": [
         {
 
             "id": 0,
@@ -13,11 +13,8 @@
                 "large_1": "images/employeedirectory_lg1.png",
                 "large_2": "images/employeedirectory_lg2.png"
             }
-
-
         },
         {
-
             "id": 1,
             "project_name":"Phrase Hunter",
             "description":"A game which was coded using OOP",
@@ -26,8 +23,7 @@
             "github_link":"https://github.com/rdelva/oop_game-v2",
             "image_urls":{
                 "thumbnail": "images/phrasehunter.png",
-                "large_1": "images/phrasehunter_lg1.png"
-               
+                "large_1": "images/phrasehunter_lg1.png"               
             }
         },
         {
@@ -43,7 +39,6 @@
                 "large_1": "images/studentdirectory_lg.png"
                
             }
-
         },
         {
 
@@ -57,8 +52,6 @@
                 "thumbnail":"images/conferenceform_sm.png", 
                 "large_1": "images/conferenceform_lg_1.png"
             }
-
-
         },
         {
 
