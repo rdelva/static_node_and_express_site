@@ -20,6 +20,23 @@ const routes = require('./routes');
 app.use(routes);
 
 
+// Error Handlers
+
+app.use((req, res, next) => {
+    console.log("This is an error");
+    const err = new Error('This is an error!!!!!');
+    next(err);
+  
+  });
+  
+app.use((err, req, res, next) => {
+    res.locals.error = err;
+    res.render('error', err);
+  
+});
+  
+  
+
 //Turn on Express  Server
 app.listen(3000, () =>{
     console.log('Server listening on port 3000');
