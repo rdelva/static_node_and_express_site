@@ -20,8 +20,8 @@ const routes = require('./routes');
 app.use(routes);
 
 
-// Error Handlers
 
+// Error Handlers
 app.use((req, res, next) => {
     console.log("Page Not Found");
     const err = new Error('Not Found');
