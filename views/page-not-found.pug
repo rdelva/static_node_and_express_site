@@ -1,4 +1,18 @@
-h1= error.message
-h2= error.status
-div 
-    p= error.stack
+extends layout.pug
+
+block content
+
+  article.portfolio-intro
+
+    h1= error.status
+    h2= error.message
+
+
+  article.portfolio-project-thumbs
+    .projects-box.box.grid
+            p= error.stack
+          
+    nav.nav
+      a(href='/')
+        span &larr;
+        |  Back
