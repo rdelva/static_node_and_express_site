@@ -28,17 +28,17 @@
             "technologies":["HTML", "JS","CSS"],
             "live_link":"",
             "github_link":"https://github.com/rdelva/data-pagination-and-filtering",
-            "image_urls":[ "static/images/studentdirectory_sm.png", "static/images/studentdirectory_lg.png" ]              
+            "image_urls":[ "static/images/studentdirectory_sm.png", "static/images/studentdirectory_lg1.png" ]              
         },
         {
 
             "id": 3,
-            "project_name":"Interactive Conference Form",
+            "project_name":"Conference Form",
             "description":"A Form, which contains interactive buttons",
             "technologies":["JavaScript", "CSS", "HTML"],
             "live_link":"",
             "github_link":"https://github.com/rdelva/data-pagination-and-filtering",
-            "image_urls": ["static/images/conferenceform_sm.png", "static/images/conferenceform_lg_1.png"]
+            "image_urls": ["static/images/conferenceform_sm.png", "static/images/conferenceform_lg.png"]
         },
         {
 
@@ -48,7 +48,7 @@
             "technologies":["JavaScript", "CSS", "HTML"],
             "live_link":"",
             "github_link":"https://github.com/rdelva/data-pagination-and-filtering",
-            "image_urls": ["static/images/randomquote_sm.png" , "static/images/randomquote_lg1.png, randomquote_lg2.png, randomquote_lg3.png"]
+            "image_urls": ["static/images/randomquote_sm.png" , "static/images/randomquote_lg.png", "static/images/randomquote_lg2.png", "static/images/randomquote_lg3.png"]
         }
     ]
 }
