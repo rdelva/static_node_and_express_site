@@ -23,7 +23,6 @@ app.use(routes);
 
 // Error Handlers
 app.use((req, res, next) => {
-    console.log("Page Not Found");
     const err = new Error('Not Found');
     err.message = "OH OH You took a wrong turn at Alburqueue!"
     err.status = 404;
