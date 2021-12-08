@@ -25,29 +25,24 @@ router.get('/project/:id', (req, res, next) => {
     // Pass the project data to the project template
     res.render('project', { project, projectId } );
   } else {
-      const err = new Error('Page Not Found');  
-      err.status = 404;
-      err.message = 'Page Not Found';  
+      const err = new Error(`Project ${projectId} Not Found`);
+      err.status = 400;
       next(err);
+      
   }
-  
+ 
 });
 
 
-
-router.use((err, res, req, next) => {
+router.use((err, req, res, next) => {
+ 
   res.locals.error = err;
-  
-  if(err.status  === 404) {
-    res.status(err.status);
-    res.render('../views/page-not-found', err);
+  if(err.status === 400){
+    res.render('page-not-found', {err});
   } else {
-      res.status(err.status);
-      res.render('../views/error', err );
+    res.render('error', {err});
   }
-
-
-
+ 
 });
 
 module.exports = router;
