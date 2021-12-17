@@ -8,7 +8,7 @@
             "technologies":["JavaScript", "Fetch API", "CSS"],
             "live_link":"",
             "github_link":"https://github.com/rdelva/public_api_request-v1",
-            "image_urls": ["static/images/employeedirectory_sm.png","static/images/employeedirectory_lg1.png","static/images/employeedirectory_lg2.png"]
+            "image_urls": ["static/images/employeedirectory_sm.png","static/images/employeedirectory.gif","static/images/employeedirectory_lg1.png", "static/images/employeedirectory_lg3.png"]
     
         },
         {
