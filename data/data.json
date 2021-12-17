@@ -6,9 +6,9 @@
             "project_name":"Employee Directory",
             "description":"A list of employees pulled from a public api using the fetch data request",
             "technologies":["JavaScript", "Fetch API", "CSS"],
-            "live_link":"",
+            "live_link":"https://rdelva.github.io/public_api_request-v1",
             "github_link":"https://github.com/rdelva/public_api_request-v1",
-            "image_urls": ["static/images/employeedirectory_sm.png","static/images/employeedirectory.gif","static/images/employeedirectory_lg1.png", "static/images/employeedirectory_lg3.png"]
+            "image_urls": ["static/images/employeedirectory_sm2.png","static/images/employeedirectory.gif","static/images/employeedirectory_lg1.png", "static/images/employeedirectory_lg3.png"]
     
         },
         {
@@ -16,9 +16,9 @@
             "project_name":"Phrase Hunter",
             "description":"A game which was coded using OOP",
             "technologies":["HTML", "JS", "CSS"],
-            "live_link":"",
+            "live_link":"https://rdelva.github.io/oop_game-v2",
             "github_link":"https://github.com/rdelva/oop_game-v2",
-            "image_urls": [ "static/images/phrasehunter.png", "static/images/phrasehunter_lg1.png"]
+            "image_urls": [ "static/images/phrasehunter.png", "static/images/phrasehunter.gif","static/images/phrasehunter_lg1.png", "static/images/phrasehunter_lg2.png"]
         },
         {
 
@@ -26,9 +26,9 @@
             "project_name":"Student Directory",
             "description":"Student Directory page which is created with an API and shows pagination and filtering",
             "technologies":["HTML", "JS","CSS"],
-            "live_link":"",
+            "live_link":"https://rdelva.github.io/data-pagination-and-filtering",
             "github_link":"https://github.com/rdelva/data-pagination-and-filtering",
-            "image_urls":[ "static/images/studentdirectory_sm.png", "static/images/studentdirectory_lg1.png" ]              
+            "image_urls":[ "static/images/studentdirectory_sm.png", "static/images/studentdirectory.gif","static/images/studentdirectory_lg1.png","static/images/studentdirectory_lg2.png" ]              
         },
         {
 
@@ -36,9 +36,9 @@
             "project_name":"Conference Form",
             "description":"A Form, which contains interactive buttons",
             "technologies":["JavaScript", "CSS", "HTML"],
-            "live_link":"",
-            "github_link":"https://github.com/rdelva/data-pagination-and-filtering",
-            "image_urls": ["static/images/conferenceform_sm.png", "static/images/conferenceform_lg.png"]
+            "live_link":"https://rdelva.github.io/interactive-form-v2",
+            "github_link":"https://github.com/rdelva/interactive-form-v2",
+            "image_urls": ["static/images/conferenceform_sm.png", "static/images/conferenceform.gif", "static/images/conferenceform_lg.png", "static/images/conferenceform_lg2.png"]
         },
         {
 
@@ -46,9 +46,9 @@
             "project_name":"Quote Generator",
             "description":"A Quote Generator which is created from a basic JSON file that lists of the most popular quotes form pop culture",
             "technologies":["JavaScript", "CSS", "HTML"],
-            "live_link":"",
-            "github_link":"https://github.com/rdelva/data-pagination-and-filtering",
-            "image_urls": ["static/images/randomquote_sm.png" , "static/images/randomquote_lg.png", "static/images/randomquote_lg2.png", "static/images/randomquote_lg3.png"]
+            "live_link":"https://github.com/rdelva/quote_generator",
+            "github_link":"https://github.com/rdelva/quote_generator",
+            "image_urls": ["static/images/randomquote_sm.png" , "static/images/randomquote.gif", "static/images/randomquote_lg2.png", "static/images/randomquote_lg3.png"]
         }
     ]
 }
