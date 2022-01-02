@@ -9,6 +9,6 @@
 <ul>
     <li>Added 2 other fonts Comfortaa and Niconne</li>
     <li>Changed sidebar background color</li>
-    <li>Added in hover transitions for button links<li>
+    <li>Added in hover transitions for button links</li>
     <li>Added in a rose svg and a rose favicon to the site</li>
 </ul>
