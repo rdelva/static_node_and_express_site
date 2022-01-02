@@ -7,6 +7,7 @@
 </ul>
 <h2>Things that I added or changed</h2>
 <ul>
+    <li>Added in a new stylesheet called style_addon.css</li>
     <li>Added 2 other fonts Comfortaa and Niconne</li>
     <li>Changed sidebar background color</li>
     <li>Added in hover transitions for button links</li>
