@@ -1,30 +1,73 @@
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Niconne&display=swap');
+
+body{
+    background:#49bfd5;
+}
 
 
+.sidebar {
+    background-color: #49bfd5;
+}
 
 .sidebar h5{
-    font-family: 'Pacifico', cursive;
+    font-family: 'Niconne', cursive;
     letter-spacing: 3px;  
-    font-size:1.75em;
-    
+    font-size:3em;
+    -webkit-text-transform: none;
+    text-transform: none;
+    font-weight: normal;       
+}
+
+.sidebar p {
+    color: #fff;
 }
 
 h1 {
-    font-family: 'Pacifico', cursive;
+    font-family: 'Niconne', cursive;
     letter-spacing: 3px;  
-    font-size:1.75em;
+    font-size:2.75em;
+}
+
+h6 {
+    font-family: 'Comfortaa', cursive;
+
 }
 
 p{
     font-family: 'Comfortaa', cursive;
-    line-height:30px;
 }
 
 .name {
     font-family: 'Comfortaa', cursive;
     font-size:2em;
-
-
-
 }
+
+.btn-link{
+    background-color: #49bfd5;
+}
+
+.btn-link:hover {
+    transition-property: background-color;
+    transition-duration: 1s;
+    background-color: #0A414B;
+}
+
+
+.cell img:hover{
+    transition-duration: 1s;
+    border:4px solid #0A414B;
+
+} 
+
+
+/* 
+  Tablet layout styles 
+*/
+@media screen and (min-width: 1px) {
+    .header-info-box{
+        font-family: 'Comfortaa', cursive;
+        font-size:1.5em;
+    }
+  }
