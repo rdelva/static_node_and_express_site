@@ -24,7 +24,7 @@ app.use(routes);
 // Error Handlers
 app.use((req, res, next) => {
     const err = new Error('Not Found');
-    err.message = "OH OH You took a wrong turn at Alburqueue!"
+    err.message = "Page not Found"
     err.status = 404;
     next(err);
   
@@ -32,8 +32,8 @@ app.use((req, res, next) => {
 
 
 app.use((req, res, next) => {
-    console.log("This is an error");
-    const err = new Error('This is an error!!!!!');
+    console.log("Oh Dear! Something went wrong.");
+    const err = new Error('Oh Dear! Something went wrong');
     err.status = 500;
     next(err);
   

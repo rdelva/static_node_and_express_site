@@ -25,7 +25,7 @@ router.get('/project/:id', (req, res, next) => {
     // Pass the project data to the project template
     res.render('project', { project, projectId } );
   } else {
-      const err = new Error(`Project ${projectId} Not Found`);
+      const err = new Error(`Project ${projectId} Does Not Exist`);
       err.status = 400;
       next(err);
       
