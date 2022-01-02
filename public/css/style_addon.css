@@ -61,6 +61,13 @@ p{
 
 } 
 
+.sidebar .thumbnail {
+    border:none;
+}
+
+
+
+
 
 /* 
   Tablet layout styles 
